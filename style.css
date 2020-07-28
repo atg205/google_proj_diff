@@ -1,0 +1,125 @@
+p, a, div {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.centered {    
+    margin: 20px;
+}
+
+#search_field {
+    width: 50em;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+}
+
+#top_header {
+    display:flex;
+    flex-direction: column;
+}
+
+#sign_in_button {
+    background-color: #4485f6;
+    color: white;
+    font-size: 15px;
+    height: 3em;
+}
+
+#top_bar {
+    align-items: center;
+    position: sticky; /*not the ideal solution, let me know if you have a better on*/
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0px;
+    top: 0;
+}
+
+#google_logo {
+    width: 92px;
+    height: 30px;
+}
+
+
+#search_bar {
+    min-width: 482px; 
+}
+
+
+#top_bar_left {
+    display: flex;
+    align-items: center;
+}
+
+#top_bar_right {
+    display: flex;
+    align-items: center;
+}
+
+#top_bar_links {
+    padding-left: 132px;
+    padding-bottom: 15px;;
+    border-bottom: 1px solid #f2f2f2;
+    position: static;
+    
+}
+
+#top_bar_links a {
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 132px;
+    width: 652px;
+}
+
+#search_result {
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+
+#search_result a {
+    color: #1a0dab;
+    font-size: 20px;
+    margin-top: 150px !important;
+}
+
+#search_result p {
+    color: #4d5156;
+    margin-top: 10px;
+}
+
+#bottom_bar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#bottom_bar a {
+    color: #5f6368;
+}
+
+
+#bottom_bar2 {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+#bottom_bar2 a{
+   margin-right: 1em;
+   font-size: 15px;
+}
