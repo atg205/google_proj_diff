@@ -1,1 +1,1 @@
-Here I am going to apply what I learned in the easy project, to create the Google Search Results page. 
+Rebuilding the Google Search results page with HTML, CSS and JavaScript
